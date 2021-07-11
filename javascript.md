@@ -13,4 +13,3 @@ JSON = JavaScipt Object Notation, a data interchange format used to store data
 
 e = the event object, in other words, the mouse click. This is a callback function.
 
-
