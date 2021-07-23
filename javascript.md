@@ -27,3 +27,9 @@ The array.forEach() method calls a provided callback function once for each elem
 The Object.keys() method returns an array of a given object's (or array's) own enumerable property names.
 Can piggyback a forEach method on top. For example, `Object.keys(book).forEach(prop => {` 
 returns an array of property names and initiates a callback function for each property.
+
+# Factories and Modules
+
+A function that lives on an object is called a *method*.
+
+**this** refers to the object the things is sitting on.
