@@ -13,6 +13,10 @@ JSON = JavaScipt Object Notation, a data interchange format used to store data
 
 e = the event object, in other words, the mouse click. This is a callback function.
 
+`let examples = document.querySelectorAll(".example")` will return a NodeList, not an array.
+To get array, use `let examplesarray = Array.from(examples)`
+
+
 # Pop up forms
 
 Can show or hide a popup form in JS like this:
