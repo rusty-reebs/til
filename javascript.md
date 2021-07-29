@@ -24,6 +24,11 @@ Can show or hide a popup form in JS like this:
 `document.getElementById("popupform").style.display = "block"; // makes form appear`
 `document.getElementById("popupform").style.display = "none"; // makes form disappear`
 
+# Buttons
+
+Can disable a button after clicking, for example, or at end of process/game.
+`document.getElementById("myBtn").disabled = true;`
+
 # Methods
 
 The array.forEach() method calls a provided callback function once for each element in an array.
