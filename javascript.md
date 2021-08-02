@@ -39,6 +39,12 @@ returns an array of property names and initiates a callback function for each pr
 
 # Factories and Modules
 
+Factories are simply plain old JS functions that return objects for us to use in our code. Use a factory over and over to create multiple objects.
+
 A function that lives on an object is called a *method*.
 
-**this** refers to the object the things is sitting on.
+**this** refers to the object the thing is sitting on.
+
+A module is like a factory except that it is wrapped in an IIFE (Immediately Invoked Function Expression).
+
+
