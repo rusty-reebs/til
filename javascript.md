@@ -1,6 +1,7 @@
 # General
 
-JSON = JavaScipt Object Notation, a data interchange format used to store data
+JavaScript ES6 was released in 2015. Stands for ECMAScript 6, the organization ECMA International creates the standard.
+JSON = JavaScript Object Notation, a data interchange format used to store data.
 
 
 # DOM Manipulation
@@ -46,5 +47,10 @@ A function that lives on an object is called a *method*.
 **this** refers to the object the thing is sitting on.
 
 A module is like a factory except that it is wrapped in an IIFE (Immediately Invoked Function Expression).
+
+# webpack
+
+webpack is a JavaScript module bundler
+*entry* is src (source) and *output* is dist (distribution)
 
 
